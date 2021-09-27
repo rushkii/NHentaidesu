@@ -45,6 +45,8 @@ nh = DoujinClient(csrf_token="YOUR_CSRF_TOKEN", session_id="YOUR_SESSION_ID", us
 ### Question
 **Q**: How do I get my **csrf_token** and **session_id**?
 **A**: You can get it from developer tools in your PC or laptop browser.
+**Q**: Why am I receiving `ImportError: failed to find libmagic.  Check your installation`?
+**A**: You can solve it by installing libmagic. [See stackoverflow](https://stackoverflow.com/questions/18374103/exception-valuefailed-to-find-libmagic-check-your-installation-in-windows-7)
 
 ### Requirements
 - Python 3.6 or higher
