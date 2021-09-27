@@ -41,7 +41,7 @@ nh = DoujinClient(csrf_token="YOUR_CSRF_TOKEN", session_id="YOUR_SESSION_ID", us
 ```
 
 ### Features
-- **Hybrid**: Supported bot asynchronous and synchronous runtime.
+- **Hybrid**: Supported both asynchronous and synchronous runtime.
 - **Download**: You can download doujinshi and user avatar.
 - **Complete**: This library is complete, but if you see any missing you can open issue.
 - **Typed-code**: Function and object are typed.
