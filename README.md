@@ -2,6 +2,7 @@
     <a href="https://github.com/rushkii/NHentaidesu">
         <img src="https://i.ibb.co/jHz73HD/logo-090da3be7b51.png" alt="Pyrogram">
     </a>
+    <br>
     <b>NHentai API Wrapper for Python</b>
 </p>
 
