@@ -2,7 +2,6 @@ from .methods import Methods
 from .scaffold import Scaffold
 from .errors import Forbidden, raise_err
 
-from typing import Union
 from bs4 import BeautifulSoup as bsoup
 import asyncio, json, re, aiohttp
 
@@ -22,7 +21,7 @@ class DoujinClient(Methods, Scaffold):
         self.cookies    = {'csrftoken': csrf_token, 'sessionid': session_id}
         self.headers    = {}
         
-        asyncio.get_event_loop().run_until_complete(self.__init_login())
+        asyncio.ensure_future(self.__init_login())
 
     async def __init_login(self) -> None:
         '''

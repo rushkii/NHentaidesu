@@ -4,6 +4,10 @@
     </a>
     <br>
     <b>NHentai API Wrapper for Python</b>
+    <br>
+    <img alt="Down/Week" src="https://img.shields.io/hexpm/dw/NHentaidesu">
+    <img alt="Release" src="https://img.shields.io/pypi/v/NHentaidesu?color=blue&label=Release">
+    <img alt="LICENSE" src="https://img.shields.io/badge/License-MIT-blue.svg">
 </p>
 
 ### Usage for asynchronous
