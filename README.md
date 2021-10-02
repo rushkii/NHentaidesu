@@ -60,4 +60,4 @@ nh = DoujinClient(csrf_token="YOUR_CSRF_TOKEN", session_id="YOUR_SESSION_ID", us
 - If you want to donate me you can contact me in [Telegram](https://t.me/nekoha).
 
 ### Copyright
-Copyright (c) 2021 [Kiizuha](hhtps://github.com/rushkii)
+Copyright (c) 2021 [Kiizuha](https://github.com/rushkii).
